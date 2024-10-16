@@ -1,0 +1,16 @@
+.image-spacing {
+    display: inline-block; 
+    margin: 0 20px;
+}
+
+.image-rescale {
+    display: inline-block; 
+    margin: 0 0px; 
+    width: 100px; 
+    height: 75px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
