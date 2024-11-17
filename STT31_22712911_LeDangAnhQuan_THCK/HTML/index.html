@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <script src="../JS/jquery-3.5.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="../assets/vendors/jquery.min.js"></script>
+    <script src="../assets/owlcarousel/owl.carousel.js"></script>
+    <style>
+        .content-male a{
+            text-decoration: none;
+            color: black;
+        }
+        .content-female a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+   <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 py-1">
+                    <a href="../HTML/index.html">
+                        <img src="../IMG/logo.png" alt="logo" height="60px">
+                    </a>
+                </div>
+                <div class="col-md-5 py-3">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row py-2">
+                                <div class="col-3">
+                                    <img src="../IMG/phone.png" alt="phone" height="40px">
+                                </div>
+                                <div class="col-9 ">
+                                    Liên hệ tôi <br>
+                                    <strong class="text-danger">0366897168</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="row py-2">
+                                <div class="col-3">
+                                    <img src="../IMG/user.png" alt="phone" height="40px">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9">
+                            <button class="btn btn-outline-success" type="submit" id="login-popup">Login</button>
+                            <button class="btn btn-outline-success" type="submit" id="sign-popup">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <section class="mainmenu bg-danger">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 py-2">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-danger" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Danh mục sản phẩm
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="../HTML/female-perfume/nuoc-hoa-nu.html">Cho nữ</a></li>
+                        <li><a class="dropdown-item" href="#">Cho nam</a></li>
+                        <li><a class="dropdown-item" href="#">Unisex</a></li>
+                        <li><a class="dropdown-item" href="#">Body mist</a></li>
+                        <li><a class="dropdown-item" href="#">Mỹ phẩm</a></li>
+                        <li><a class="dropdown-item" href="#">Phụ kiện</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item ml-3">
+                                        <a class="nav-link active  text-white" aria-current="page" href="/HTML/index.html">Trang chủ</a>
+                                    </li>
+                                    <li class="nav-item ml-3">
+                                        <a class="nav-link  text-white" href="#">Giới thiệu</a>
+                                    </li>
+                                    <li class="nav-item ml-3">
+                                        <a class="nav-link text-white" href="#">Hệ thống cửa hàng</a>
+                                    </li>
+                                    <li class="nav-item ml-3">
+                                        <a class="nav-link text-white" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item ml-3">
+                                        <a class="nav-link text-white" href="#">Liên hệ</a>
+                                    </li>
+                                    <li class="nav-item ml-3">
+                                        <a class="nav-link text-white" href="#">Giỏ hàng</a>
+                                    </li>    
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>    
+        </div>
+   </section>
+   <section class="content">
+        <div class="container">
+            <div class="banner">
+                <img src="../IMG/banner.jpg" class="d-block w-100" alt="banner">
+            </div>
+            <hr>
+        
+            <div class="content-male">
+                <div class="male-banner">
+                    <img src="../IMG/male_perfume_banner.jpg" class="d-block w-100" alt="male_banner">
+                </div>
+                <div class="male-product-list">
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/male-ferragamo-uomo.html">
+                            <img src="../IMG/male/salvatore-ferragamo.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Salvatore Ferragamo Uomo Signature EDP</h4>
+                            <h5>2.750.000 &#8363;</h5></a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/male-calvin-kein-men-eternity-romatic-essence.html">
+                            <img src="../IMG/male/ck-men eternity.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Calvin Klein Men's Eternity Aromatic Essence EDP</h4>
+                            <h5>3.050.000 &#8363;</h5></a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/male-dolce-gabana-k.html">
+                            <img src="../IMG/male/dolce-gabbanna-k-pour.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Dolce & Gabbana K Eau de Toilette</h4>
+                            <h5>3.050.000 &#8363;</h5></a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/male-YSL-Y-Le-Parfum-EDP">
+                            <img src="../IMG/male/ysl-le-parfum.webp" alt="perfume_salvatore" width="100%">
+                            <h4>YSL Y Le Parfum EDP</h4>
+                            <h5>4.160.000 &#8363;</h5></a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/male-JPG-LE-MALE-ELIXIR-23-EDP.html">
+                            <img src="../IMG/male/le-male-elixir.webp" alt="perfume_salvatore" width="100%">
+                            <h4>JPG LE MALE ELIXIR 23 EDP</h4>
+                            <h5>5.450.000 &#8363;</h5></a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/male-Salvatore-Ferragamo-Intense-Leather-EDP.html">
+                            <img src="../IMG/male/ferragamo.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Salvatore Ferragamo Intense Leather EDP</h4>
+                            <h5>2.750.000 &#8363;</h5></a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/male-Versace-Eros-Parfum.html">
+                            <img src="../IMG/male/savege-ero.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Versace Eros Parfum</h4>
+                            <h5>2.750.000 &#8363;</h5></a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/male-Mercedes-Benz-Sign-EDP.html">
+                            <img src="../IMG/male/merc.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Mercedes-Benz Sign EDP</h4>
+                            <h5>2.600.000 &#8363;</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="content-female">
+                <div class="female-banner">
+                    <a href="../HTML/female-perfume/nuoc-hoa-nu.html">
+                        <img src="../IMG/female_perfume_banner.jpg" class="d-block w-100" alt="banner">
+                    </a>
+                </div>
+                <div class="female-product-list">
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <a href="/HTML/female-perfume/La-Vie-Est-Belle-Elixir-EDP.html">
+                            <img src="../IMG/female/lancome.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Lancôme La Vie Est Belle Elixir EDP</h4>
+                            <h5>3.250.000 &#8363;</h5></a>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="../IMG/female/tresor-nut.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Lancôme Tresor La Nuit Le Parfum</h4>
+                            <h5>4.200.000 &#8363;</h5>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="../IMG/female/donna-bborn.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Valentino Donna Born In Roma Intense EDP</h4>
+                            <h5>2.365.000 &#8363;</h5>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="../IMG/female/libre.webp" alt="perfume_salvatore" width="100%">
+                            <h4>LIBRE EDT</h4>
+                            <h5>4.160.000 &#8363;</h5>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="../IMG/female/opium.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Black Opium EDP</h4>
+                            <h5>5.450.000 &#8363;</h5>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="../IMG/female/paris-intense.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Mon Paris Intensement EDP</h4>
+                            <h5>5.250.000 &#8363;</h5>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="../IMG/female/creed.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Creed Carmina EDP</h4>
+                            <h5>6.250.000 &#8363;</h5>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="../IMG/female/20240402152248_037941.webp" alt="perfume_salvatore" width="100%">
+                            <h4>Carolina Herrera Good Girl EDP</h4>
+                            <h5>2.100.000 &#8363;</h5>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+   </section>
+   <section class="foote bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-lg-3 col-md-12 col-12">
+                    <div class="logo_footer">
+                        <a href="/" class="logo-wrapper ">	
+                            <img src="../IMG/logo.png" alt="logo LetNature Store" height="80px">
+                        </a>
+                    </div>
+                    <p class="sum_footer">
+                        Chúng tôi mong muốn La Perfume sẽ trở thành nơi gần gũi tin tưởng của 
+                        khách hàng trong việc chọn lựa các sản phẩm nước hoa, mỹ phẩm, phụ kiện từ các nghệ nhân trên thế giới,
+                        nơi mọi người có thể tìm mùi hương tuyệt vời nhất cho mình.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-fix">
+                    <div class="widget-ft">
+                        <h4 class="title-menu">
+                            <a>
+                                Liên hệ với chúng tôi
+                            </a>
+                        </h4>
+                        <div class="time_work">
+                            <div class="content-contact clearfix">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>
+                                    <b>Địa chỉ văn phòng: </b>
+                                    
+                                    204/13 Nguyễn Oanh, Phường 17, Gò Vấp, Tp. Hồ Chí Minh <br>
+                                    (khách hàng đến mua hàng trực tiếp, vui lòng gửi xe ở hầm giữ xe kế bên cửa hàng,
+                                     cửa hàng sẽ hỗ trợ phí gửi xe trên đơn mua hàng của quý khách)
+
+                                    
+                                </span>
+                            </div>
+                            <div class="content-contact clearfix">
+                                <i class="fas fa-phone"></i>
+                                <span>
+                                    <b>Liên hệ: </b>
+                                    <a href="tell:0366897168">
+                                        0366897168
+                                    </a>
+                                </span>
+
+                            </div>
+                            <div class="content-contact clearfix">
+                                <i class="fas fa-phone"></i>
+                                <span>
+                                    <b>Hotline: </b>
+                                    <a href="tell:1800 9377">
+                                        1800-9377
+                                    </a>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-fix">
+                    <div class="widget-ft">
+                        <h4 class="title-menu">
+                            <a>
+                                Chính sách 
+                            </a>
+                        </h4>
+                        <ul class="list-menu">
+                            
+                            <li class="li_menu"><a href="/chinh-sach-mua-hang" title="Chính sách mua hàng">Chính sách mua hàng</a></li>
+                            
+                            <li class="li_menu"><a href="/chinh-sach-thanh-toan" title="Chính sách thanh toán">Chính sách thanh toán</a></li>
+                            
+                            <li class="li_menu"><a href="/chinh-sach-van-chuyen" title="Chính sách vận chuyển">Chính sách vận chuyển</a></li>
+                            
+                            <li class="li_menu"><a href="/chinh-sach-doi-tra-bao-hanh" title="Chính sách đổi trả, bảo hành">Chính sách đổi trả, bảo hành</a></li>
+                            
+                            <li class="li_menu"><a href="/cong-tac-vien-affiliate-program" title="Cộng Tác Viên - Affiliate Program">Cộng Tác Viên - Affiliate Program</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-fix">
+                    <div class="widget-ft">
+                        <h4 class="title-menu">
+                            <a>
+                                Đăng ký nhận khuyến mãi
+                            </a>
+                        </h4>
+                        <div class="time_work">
+                            <p>Đừng bỏ lỡ những sản phẩm và chương trình khuyến mãi hấp dẫn</p>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Email" aria-label="Go">
+                                <button class="btn btn-outline-success" type="submit">Ok</button>
+                            </form>
+        </div>
+   </section>
+   
+</body>
+</html>

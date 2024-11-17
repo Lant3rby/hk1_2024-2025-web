@@ -1,0 +1,15 @@
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+.banner{
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
