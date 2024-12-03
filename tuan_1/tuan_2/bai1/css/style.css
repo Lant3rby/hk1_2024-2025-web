@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.wrapper{
+    height: 860px;
+    width: auto;
+    background-color: #72b7af;
+    
+}
+
+
+
+header{
+    height: 60px;
+    width: auto;
+    background-color: #ffffff;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color:brown;
+    font-size: 36px; 
+    margin: 0;
+   background-image: /html\tuan2\bai1\images\icons8-home-50.png;
+}
+
+
+nav{
+    height: 60px;
+    width: auto;
+    background-color: #f09494;
+    text-decoration: none;
+}
+.top-menu li{
+    float: left;
+    width: 19%;
+    background-color: #f09494;
+    line-height: 60px;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border:  1px solid ;
+
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.top-menu li:hover{
+    background-color: #b2e2e1;
+}
+li:hover>a{
+    font-style: italic;
+}
+.content{
+    height: 500px;
+    width: auto;
+    background-color: #cee1e0;
+}
+
+.content-h1{
+    background-color: rgb(238, 168, 168);
+    color: brown;
+}
+
+
+
+.search-box {
+    display: flex;
+    background-color: #ffcccc; /* Light pink background color */
+}
+
+.search-box input[type="text"] {
+    border: none; /* No border for input */
+    outline: none; /* No outline */
+    padding: 5px; /* Padding inside input */
+    width: 90%; /* Full width for the input */
+}
+
+.search-box button {
+    border: none; /* No border for button */
+    background-color: white; /* Background color for button */
+    padding: 5px 10px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+
+.menu-left{
+    height: 500px;
+    width: 25%;
+    background-color: #ffffff;
+    float: left;
+}
+
+.content-left{
+    height: 500px;
+    width: 50%;
+    background-color: #ffffff;
+    float:left;
+}
+
+.content-right{
+    height: 500px;
+    width: 25%;
+    background-color: #020100;
+    float:left;
+}
+
+li .menu-left{
+    background-color: #e8958b; /* Light pink color */
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
